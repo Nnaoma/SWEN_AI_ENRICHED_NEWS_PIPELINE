@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "SWEN BACKEND ASSESSMENT",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Miracle I Nnaoma",
   "license": "ISC",
   "dependencies": {
+    "@google/genai": "^1.24.0",
     "axios": "^1.12.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "redis": "^5.8.3"
   }
 }
